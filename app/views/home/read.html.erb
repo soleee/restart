@@ -1,0 +1,7 @@
+<p>
+        제목 : <%= @post.title %><br>
+        내용 : <%= @post.content %>
+</p>
+<br>
+<a href="/home/update/<%=@post.id%>">수정하기</a><br>
+<a href="/home/delete/<%=@post.id%>">삭제하기</a>
